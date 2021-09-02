@@ -1,5 +1,5 @@
-library(KnowSeq)
-library(caret)
+require(KnowSeq)
+require(caret)
 
 #Train SVM with 2 first mRMR features
 svm.2features <- svm_trn(data=data.alignment.final[,-45],

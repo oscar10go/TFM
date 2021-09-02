@@ -1,7 +1,7 @@
-library(httr)
-library(jsonlite)
-library(stringr)
-library(stringi)
+require(httr)
+require(jsonlite)
+require(stringr)
+require(stringi)
 
 #Function that queries a list of proteins to INPROF
 getInprof <- function(proteines, temporal, alignment='none',sequences='true',

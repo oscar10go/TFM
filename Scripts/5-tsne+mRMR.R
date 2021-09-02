@@ -1,5 +1,5 @@
-library(Rtsne)
-library(KnowSeq)
+require(Rtsne)
+require(KnowSeq)
 
 #Apply t-SNE
 train<-  data.alignment.final

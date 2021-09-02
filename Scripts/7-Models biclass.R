@@ -1,5 +1,5 @@
-library(KnowSeq)
-library(caret)
+require(KnowSeq)
+require(caret)
 
 #SVM
 svm.2features.biclass <- svm_trn(data=data.biclass[,-45],

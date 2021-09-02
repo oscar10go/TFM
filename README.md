@@ -16,5 +16,8 @@ DEGs canonic proteins are extracted via UniProt
 The protein list for each COVID-19 patient is queried to INPROF and a dataset with all patient proteins INPROF information is built.
 ## 5-tsne+mRMR
 tSNE algorithm is performed using INPROF data and mRMR feature ranking is computed.
-## 6-SVM
+## 6-Models
 SVM models are trained using INPROF features incrementally following mRMR order.
+## 7-tsne+mRMR biclass
+
+## 8-Models biclass

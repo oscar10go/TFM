@@ -1,6 +1,6 @@
-library(httr)
-library(jsonlite)
-library(stringr)
+require(httr)
+require(jsonlite)
+require(stringr)
 
 #Build a function that gets canonic proteins from a list of genes via UniProt specifying the ID origin
 getProteins <- function(genes, from='ENSEMBL_ID', to='SWISSPROT'){

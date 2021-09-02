@@ -1,4 +1,5 @@
 require(KnowSeq)
+require(tidyverse)
 
 computeGenes_OVControl <- function(originalGeneMatrix,original.labels,category,lfc = 1, pvalue = 0.001) {
   #Get index where Control patients are placed

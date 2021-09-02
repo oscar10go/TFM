@@ -17,7 +17,8 @@ The protein list for each COVID-19 patient is queried to INPROF and a dataset wi
 ## 5-tsne+mRMR
 tSNE algorithm is performed using INPROF data and mRMR feature ranking is computed.
 ## 6-Models
-SVM models are trained using INPROF features incrementally following mRMR order.
+SVM, Random-Forest and k-NN models are trained using INPROF features incrementally following mRMR order.
 ## 7-tsne+mRMR biclass
-
+Biclass data set is built and tSNE algorithm is performed using it and its mRMR feature ranking is computed.
 ## 8-Models biclass
+SVM, Random-Forest and k-NN models are trained using INPROF features incrementally following mRMR order.

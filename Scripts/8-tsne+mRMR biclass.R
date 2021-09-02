@@ -1,5 +1,5 @@
-library(KnowSeq)
-library(tidyverse)
+require(KnowSeq)
+require(tidyverse)
 
 #Change from 3 classes to 2 classes
 data.biclass <- data.alignment.final[,-45]
